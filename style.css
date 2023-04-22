@@ -1,0 +1,123 @@
+/*redefinir formatações*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*---------Layout-top---------*/
+
+#cabecalho {
+    background-color: #FFD700;
+    text-align: center;
+}
+
+#logo-cabecalho, #menu-cabecalho {
+    padding: 15px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    float: left;
+    width: 660px;
+}
+
+#area-postagensL {
+    float: right;
+    width: 240px;
+}
+
+#rodape {
+    background-color: black;
+    clear: both;
+}
+
+#direitos {
+   color: white;
+   text-align: center;
+   padding: 15px;
+   font-style: italic;
+}
+
+.conteudo{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.conteudoL{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.corw {
+    color: white;
+}
+
+.data {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    display: block;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.lateral {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.menuL{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+/*---------Formatações---------*/
+
+#cabecalho a {
+    font-size: 1.7em;
+    text-decoration: none;
+    padding: 6px;
+}
+
+#cabecalho a:link, a:visited {
+    color: black;
+}
+
+#cabecalho a:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#cabecalho h1 {
+    font-size: 3.5em;
+}
+
+.menuL a {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menuL a:link, a:visited {
+    color: black;
+}
+
+.menuL a:hover {
+    background-color: #FFD700;
+    border-radius: 10px;
+    color: black;
+}
